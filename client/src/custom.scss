@@ -1,0 +1,36 @@
+$theme-colors: (
+        "primary": #f9ff00,
+);
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 480px,
+        md: 640px,
+        lg: 992px,
+        xl: 1300px
+);
+$enable-rounded: false;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/bootstrap-vue/src/index';
+
+.btn {
+  font-size: 1.5rem;
+  border-radius: 600px;
+  width: 300px;
+}
+.form-control {
+  background-color: transparent;
+  color: white;
+  border-width: 0;
+  border-bottom: 3px solid white;
+
+  &::placeholder {
+    color: white;
+  }
+  &:focus {
+    background-color: transparent;
+    outline: none;
+  }
+}
+
