@@ -15,7 +15,7 @@ Vue.mixin({
     data: function () {
         return {
             get endpoint() {
-                return "http://localhost:4000";
+                return "http://167.172.16.67:4000";
             },
 
             getUserID() {
