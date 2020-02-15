@@ -47,7 +47,7 @@
             </div>
             <div class="col-4 mb-3 d-flex">
                 <div class="block">
-                    <h3>Weather</h3>
+                    <h3>Tasks</h3>
                     <div class="block__container">
                     </div>
                 </div>
